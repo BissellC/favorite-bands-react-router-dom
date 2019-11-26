@@ -1,5 +1,9 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
+import HomePage from './components/HomePage'
+import Pup from './components/Pup'
+import TheFrights from './components/TheFrights'
+import JoyceManor from './components/JoyceManor'
 
 const App = () => {
   return (
@@ -8,16 +12,24 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link className="link" to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/pup">Pup</Link>
+              <Link className="link" to="/pup">
+                Pup
+              </Link>
             </li>
             <li>
-              <Link to="/the-frights">The Frights</Link>
+              <Link className="link" to="/the-frights">
+                The Frights
+              </Link>
             </li>
             <li>
-              <Link to="/joyce-manor">Joyce Manor</Link>
+              <Link className="link" to="/joyce-manor">
+                Joyce Manor
+              </Link>
             </li>
           </ul>
         </nav>

@@ -9,4 +9,82 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: lightgray;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 2rem;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  background-color: grey;
+}
+
+.link:hover {
+  background-color: red;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: grey;
+  padding: 1.5rem;
+}
+
+.homepage-header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15rem;
+}
+
+.homepage-content {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.band-pic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.band-pic {
+  width: 75%;
+}
+
+.band-name {
+  font-size: 36px;
+}
+
+.latest-album {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.album-art {
+  width: 40%;
+  margin-right: 1rem;
+}
+
+.album-info {
+  border: solid 2px black;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.latest-album-header {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2rem;
+  text-decoration: underline;
 }

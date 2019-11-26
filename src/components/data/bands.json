@@ -1,0 +1,31 @@
+{
+  "bands": [
+    {
+      "band": "Pup",
+      "info": [
+        {
+          "bandName": "Pup",
+          "albumInfo": "Morbid Stuff is the third album by Canadian rock band PUP, released April 5, 2019 through Rise Records and Little Dipper, the band's personal label."
+        }
+      ]
+    },
+    {
+      "band": "The Frights",
+      "info": [
+        {
+          "bandName": "The Frights",
+          "albumInfo": "Hypochondriac is the third studio album by American surf-punk band The Frights, released August 24, 2018 on Epitaph Records."
+        }
+      ]
+    },
+    {
+      "band": "Joyce Manor",
+      "info": [
+        {
+          "bandName": "Joyce Manor",
+          "albumInfo": "Million Dollars to Kill Me is the fifth studio album by American punk rock band Joyce Manor, released on September 21, 2018 through Epitaph Records."
+        }
+      ]
+    }
+  ]
+}
